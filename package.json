@@ -1,0 +1,25 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "type": "module",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node weather.js"
+  },
+  "keywords": [
+    "weather",
+    "CLI"
+  ],
+  "author": "Roman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1"
+  }
+}
